@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+body {
+	background-color: linen;
+}
+h1{
+	color:linen;
+}
+section.hero h1.title{
+	font-family: 'VT323', monospace;
+}
+.border{
+	border-color: red;
+	border-width: 1px;
+	border-style: solid;
+
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+
+/*	margin:10px 20px 5px 40px;
+	padding: */
+}
+.
