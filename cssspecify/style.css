@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+
+@keyframes pulse {
+  0% {
+    background-color: linen;
+  }
+  75%{
+  	background-color: pink
+  }
+  100% {
+    background-color: linen;
+  }
+}
+
+body {
+  animation: pulse 5s infinite;
+}
+
+.Header{
+	background-color: lightblue;
+  	color: black;
+  	padding: 40px;
+  	text-align: center;
+  	font-family: 'Niramit', sans-serif;
+  	border: 2px solid tomato;
+}
+.Second-Header{
+	background-color: l;
+  	color: black;
+  	padding: 20px;
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
+.specifyvscascade{
+	background-color: pink;
+  	color: black;
+  	padding: 20px;
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
+
+.Ex1{
+	background-color: linen;
+  	color: black;
+  	padding: 60px;
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+  	float: left;
+}
+.Ex2{
+	background-color: linen;
+  	color: black;
+  	padding: 40px; 
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
+.Ex3{
+	background-color: linen;
+  	color: black;
+  	padding: 60px; 
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
+.powercal{
+	background-color: pink;
+  	color: black;
+  	padding: 20px;
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
+.credit{
+	background-color: linen;
+  	color: black;
+  	padding: 20px;
+  	text-align: left;
+  	font-family: 'Niramit', sans-serif;
+}
