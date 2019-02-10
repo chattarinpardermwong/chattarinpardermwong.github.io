@@ -112,27 +112,3 @@ $('#search-btn').click(function() {
         });
     });
 });
-
-// $('#search-btn').on('click',function(){
-//     $.getJSON("data.json",function(data){
-//         var search = $("#search-btn").val();
-//         var regex = new RegExp(search, 'i');
-//         var output;
-//         $.each(data, function(key,val){
-//             if((val.id.search(regex) != -1) || (val.name.search(regex) != -1)){
-//                 output += "<tr>";
-//                 output += "<td id='"+key+"'>"+val.id+"</td>";
-//                 output += "<td id='"+key+"'>"+val.name+"</td>";
-//                 output += "<td id='"+key+"'>"+val.gender+"</td>";
-//                 output += "<td id='"+key+"'>"+val.age+"</td>";
-//                 output += "<td id='"+key+"'>"+val.class+"</td>";
-//                 output += "<td id='"+key+"'>"+val.Atk+"</td>";
-//                 output += "<td id='"+key+"'>"+val.MAtk+"</td>";
-//                 output += "<td id='"+key+"'>"+val.Def+"</td>";
-//                 output += "<td id='"+key+"'>"+val.SPD+"</td>";
-//                 output += "</tr>";
-//             }
-//         });
-//         $('#datatable').html(output);
-//     })
-// })
