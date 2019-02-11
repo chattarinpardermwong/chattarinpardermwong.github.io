@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hello JQuery 3</title>
+</head>
+<header>
+    <section class="hero is-dark is-large ">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              First Fantasy I : Initial of The Final Fantasy.
+            </h1>
+            <h2 class="subtitle">
+              Main Character Status
+            </h2>
+          </div>
+        </div>
+    </section>
+</header>
+<body>
+    <section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label" for="input-text">Search: </label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Find something....">
+                        </p>
+                        </div>
+                        <div class="control">
+                            <button id="search-btn" class="button is-dark">
+                                SEARCH
+                            </button>
+
+                        </div>
+                        <div class="container">
+                            <a href="#demo" id = "adv-btn" class="btn btn-dark" data-toggle="collapse">AdvanceSearch</a>
+                            <div id="demo" class="collapse">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> ID
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Name
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> Gender
+                                    </label>
+                                    <label class="btn btn-secondary">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> Class
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th class = "table-danger">ID</th>
+                <th class = "table-warning">Name</th>
+                <th class = "table-info">Gender</th>
+                <th class = "table-primary">Age</th>
+                <th class = "table-secondary">Class</th>
+                <th class = "table-danger">Atk</th>
+                <th class= "table-warning">MAtk</th>
+                <th class= "table-info">Def</th>
+                <th class= "table-primary">Spd</th>
+              </tr>
+            </thead>
+            <tbody id="datatable">
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <section class="hero is-dark is-small ">
+            <div class="hero-body">
+              <div class="container">
+                <h2 class="subtitle">
+                  legoeiei 5910450140
+                </h2>
+              </div>
+            </div>
+    </section>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
